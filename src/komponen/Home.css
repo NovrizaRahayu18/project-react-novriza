@@ -1,0 +1,65 @@
+html,body {
+    margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+.parent_geogrid {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.apa_tengah {
+    position: absolute;
+    font-size: 70px;
+    color: white;
+    font-weight: bold;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);}
+
+img {
+    width: 100%;
+    height: 400px;
+}
+
+
+.container_home {
+    width: 100%;
+    padding: 50px;
+    box-sizing: border-box;
+}
+
+
+.kotak_home {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.gambar {
+    width: 40%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.card_home {
+    width: 50%;
+}
+
+.judul_home {
+    font-size: 50px;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 0;
+    color: rgb(151, 16, 43);
+}
+
+.text_home {
+    color: gray;
+    font-size: 20px;
+}
+
